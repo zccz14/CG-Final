@@ -131,6 +131,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="render.cpp" />
     <ClCompile Include="setup.cpp" />
+    <ClCompile Include="tree_stone.cpp" />
     <ClCompile Include="vector2.cpp" />
     <ClCompile Include="vector3.cpp" />
   </ItemGroup>
@@ -138,11 +139,15 @@
     <ClInclude Include="ball.h" />
     <ClInclude Include="basic_camera.h" />
     <ClInclude Include="fps_camera.h" />
+    <ClInclude Include="func.h" />
     <ClInclude Include="game_object.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="name.h" />
     <ClInclude Include="rigidbody.h" />
     <ClInclude Include="scene.h" />
+    <ClInclude Include="sky.h" />
+    <ClInclude Include="texture.h" />
+    <ClInclude Include="tiny_obj_loader.h" />
     <ClInclude Include="tree_stone.h" />
     <ClInclude Include="vector2.h" />
     <ClInclude Include="vector3.h" />

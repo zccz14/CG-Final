@@ -21,5 +21,5 @@ public:
 	GameObject move(Vector3 v);
 	GameObject rotate(Vector3 v);
 	GameObject zoom(Vector3 v);
-	virtual void reder();
+	void render();
 };

@@ -42,6 +42,9 @@
     <ClCompile Include="ball.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="tree_stone.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -75,6 +78,18 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="tree_stone.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="func.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tiny_obj_loader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sky.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

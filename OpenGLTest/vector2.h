@@ -1,5 +1,6 @@
 #pragma once
 #include "name.h"
+#include "vector3.h"
 class Chunk {
 public:
 	int x;

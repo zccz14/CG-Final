@@ -46,8 +46,12 @@ GameObject GameObject::rotate(GLfloat x, GLfloat y, GLfloat z) {
 }
 
 GameObject GameObject::zoom(GLfloat x, GLfloat y, GLfloat z) {
-	this->zoom.x += x;
-	this->zoom.y += y;
-	this->zoom.z += z;
+	this->scale.x += x;
+	this->scale.y += y;
+	this->scale.z += z;
 	return *this;
+}
+
+void GameObject::render () {
+
 }

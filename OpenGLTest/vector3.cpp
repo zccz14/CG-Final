@@ -1,4 +1,5 @@
 #include "vector3.h"
+#include "vector2.h"
 
 Vector3::Vector3(real x, real y, real z) {
 	this->x = x;
@@ -66,3 +67,10 @@ real Vector3::distance32(Vector3 A, Vector3 B) {
 	return Vector3::lengthVector32(Vector3::minusVector3(A, B));
 }
 
+Vector3 Vector2::addAcceleration (Vector2 A, real g) {
+	Vector3 Acceleration;
+	Acceleration.x = A.x;
+	Acceleration.y = A.y;
+	Acceleration.z = g;
+	return Acceleration;
+}
